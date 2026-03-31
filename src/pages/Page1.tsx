@@ -1,23 +1,17 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonHeader, IonPage, IonTitle,IonToolbar } from "@ionic/react";
 
+const Page1: React.FC =() =>{
 
-const Page1: React.FC = () => {
-  return (
-    <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Blank</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
-          </IonToolbar>
+    return(
+      <IonPage>
+        <IonHeader>
+         <IonToolbar>
+            <IonTitle> Page 1</IonTitle>
+         </IonToolbar>
         </IonHeader>
-      </IonContent>
-    </IonPage>
-  );
+      </IonPage>
+
+    );
 };
 
 export default Page1;
