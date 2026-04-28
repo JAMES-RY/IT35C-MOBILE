@@ -12,11 +12,11 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@ionic/react": "^8.5.0",
-    "@ionic/react-router": "^8.5.0",
+    "@ionic/react": "^8.8.3",
+    "@ionic/react-router": "^8.8.3",
     "@types/react-router": "^5.1.20",
     "@types/react-router-dom": "^5.3.3",
-    "ionicons": "^7.4.0",
+    "ionicons": "^8.0.13",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-router": "^5.3.4",
@@ -27,6 +27,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^14.4.3",
+    "@types/jest": "^30.0.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "19.0.4",
     "@vitejs/plugin-legacy": "^5.0.0",
